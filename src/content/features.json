@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Моментально",
+      "description": "Никаких задержек. 1 секунда на подписание",
+      "imageName": "speedometer"
+    },
+    {
+      "id": 2,
+      "title": "Глобально",
+      "description": "Сервис доступен 24\\7 со всех устройств",
+      "imageName": "positive-vote"
+    },
+    {
+      "id": 3,
+      "title": "Экономно",
+      "description": "В 30 раз дешевле чем почта и курьеры",
+      "imageName": "piggy-bank"
+    }
+  ]
+}
