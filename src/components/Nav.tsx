@@ -5,6 +5,7 @@ import { Button, Menu } from "@mantine/core";
 import { Link } from "gatsby";
 import { IconChevronDown } from "@tabler/icons-react";
 import NavMenu from "./NavMenu";
+import { useWindowScroll } from "@mantine/hooks";
 
 interface NavProps {
     className?: string,
@@ -13,9 +14,14 @@ interface NavProps {
 
 const Nav: React.FC<NavProps> = ({ className }) => {
   const classNameValue = className ? `${className}` : "";
+  const [scroll, scrollTo] = useWindowScroll();
   return (
-    <div className="bg-solitude">
-      <Container className="flex justify-between items-center pt-[25px] md:pt-[36px]">
+    <div
+      className={`${
+        scroll.y < 80 ? "bg-transparent" : "bg-white"
+      } sticky z-10 top-0 right-0 left-0`}
+    >
+      <Container className="flex justify-between items-center py-3">
         <StaticImage
           src="../images/logo.png"
           width={132}
@@ -45,10 +51,10 @@ const Nav: React.FC<NavProps> = ({ className }) => {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <Link to="tel:+380 44 334 56 43">+380 44 334 56 43</Link>
+                <a href="tel:+380 44 334 56 43">+380 44 334 56 43</a>
               </Menu.Item>
               <Menu.Item>
-                <Link to="tel:+380 44 338 86 43">+380 44 338 86 43</Link>
+                <a href="tel:+380 44 338 86 43">+380 44 338 86 43</a>
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>

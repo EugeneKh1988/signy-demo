@@ -6,8 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        plexSerif: "'Plex Serif', Arial, Helvetica, sans-serif",
+      },
       screens: {
         "2xl": "1440px",
+      },
+      backgroundImage: {
+        slide1: "url('../images/hero-slide-figure-1.png')",
+        slide2: "url('../images/hero-slide-figure-2.png')",
+        slide3: "url('../images/hero-slide-figure-3.png')",
       },
       colors: {
         "black-pearl": {

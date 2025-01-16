@@ -21,6 +21,7 @@
     "@mantine/hooks": "^7.15.3",
     "@tabler/icons-react": "^3.28.1",
     "autoprefixer": "^10.4.20",
+    "embla-carousel-autoplay": "^7.1.0",
     "embla-carousel-react": "^7.1.0",
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",

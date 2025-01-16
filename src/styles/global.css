@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Plex Sans';
+        src: url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Plex Sans';
+        src: url('../fonts/IBMPlexSans-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Plex Sans';
+        src: url('../fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Plex Sans';
+        src: url('../fonts/IBMPlexSans-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Plex Serif';
+        src: url('../fonts/IBMPlexSerif-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+}
+
+body {
+    color: #061224E5;
+    background: #FFFFFF;
+    font-family: 'Plex Sans', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}

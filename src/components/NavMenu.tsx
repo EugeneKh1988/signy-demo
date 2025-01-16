@@ -38,24 +38,24 @@ const NavMenu: React.FC<NavMenuProps> = ({ className }) => {
           </Drawer.Header>
           <Drawer.Body className="pb-[25px] px-[20px] md:pb-[35px] md:px-[45px]">
             <div className="hidden md:block font-medium text-[18px] leading-6 tracking-[0.19em] text-black-pearl/90 border-b border-b-royal-blue">
-              <Link
-                to="tel:0 800 750 643"
+              <a
+                href="tel:0 800 750 643"
                 className="pl-[13px] py-4 block hover:bg-[#E2EDFB]"
               >
                 0 800 750 643
-              </Link>
-              <Link
-                to="tel:+380 44 334 56 43"
+              </a>
+              <a
+                href="tel:+380 44 334 56 43"
                 className="pl-[13px] py-4 block hover:bg-[#E2EDFB]"
               >
                 +380 44 334 56 43
-              </Link>
-              <Link
-                to="tel:+380 44 338 86 43"
+              </a>
+              <a
+                href="tel:+380 44 338 86 43"
                 className="pl-[13px] py-4 block hover:bg-[#E2EDFB]"
               >
                 +380 44 338 86 43
-              </Link>
+              </a>
             </div>
             <div className="hidden md:flex justify-between py-[33px] pl-[13px] tracking-[0.19em] border-b border-b-royal-blue">
               <Button
@@ -103,15 +103,15 @@ const NavMenu: React.FC<NavMenuProps> = ({ className }) => {
                 classNames={{ label: "text-[16px]" }}
               >
                 <NavLink
-                  component={Link}
-                  to="tel:+380 44 334 56 43"
+                  component="a"
+                  href="tel:+380 44 334 56 43"
                   label="+380 44 334 56 43"
                   className="py-4 hover:bg-[#E2EDFB]"
                   classNames={{ label: "text-[16px]" }}
                 />
                 <NavLink
-                  component={Link}
-                  to="tel:+380 44 338 86 43"
+                  component="a"
+                  href="tel:+380 44 338 86 43"
                   label="+380 44 338 86 43"
                   className="py-4 hover:bg-[#E2EDFB]"
                   classNames={{ label: "text-[16px]" }}
