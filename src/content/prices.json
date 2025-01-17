@@ -1,0 +1,48 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Demo",
+      "description": "30 документов",
+      "price": 0,
+      "pricePeriod": "грн/месяць",
+      "action": {
+        "name": "Зарегистрироваться",
+        "href": "#"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Business",
+      "description": "1 000 документов",
+      "price": 1000,
+      "pricePeriod": "грн/год",
+      "action": {
+        "name": "Заказать",
+        "href": "#"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Pro",
+      "description": "10 000 документов",
+      "price": 9000,
+      "pricePeriod": "грн/год",
+      "action": {
+        "name": "Заказать",
+        "href": "#"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Individual",
+      "description": "Неограниченное количество документов",
+      "price": -1,
+      "pricePeriod": "",
+      "action": {
+        "name": "Связаться с нами",
+        "href": "#"
+      }
+    }
+  ]
+}

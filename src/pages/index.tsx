@@ -4,6 +4,8 @@ import Nav from "../components/Nav";
 import CarouselBlock from "../components/Carousel";
 import Features from "../components/Features";
 import Properties from "../components/Properties";
+import Prices from "../components/Prices";
+import Sign from "../components/Sign";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -14,6 +16,8 @@ const IndexPage: React.FC<PageProps> = () => {
       </div>
       <Features />
       <Properties />
+      <Prices />
+      <Sign />
     </>
   );
 }
