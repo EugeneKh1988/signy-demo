@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "imageName": "global-logic"
+    },
+    {
+      "id": 2,
+      "imageName": "nix"
+    },
+    {
+      "id": 3,
+      "imageName": "nova-post"
+    },
+    {
+      "id": 4,
+      "imageName": "your-office"
+    },
+    {
+      "id": 5,
+      "imageName": "taste-bread"
+    },
+    {
+      "id": 6,
+      "imageName": "ukroboron"
+    }
+  ]
+}

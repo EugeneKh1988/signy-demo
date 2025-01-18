@@ -6,6 +6,8 @@ import Features from "../components/Features";
 import Properties from "../components/Properties";
 import Prices from "../components/Prices";
 import Sign from "../components/Sign";
+import Friends from "../components/Friends";
+import HomePosts from "../components/HomePosts";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -18,6 +20,8 @@ const IndexPage: React.FC<PageProps> = () => {
       <Properties />
       <Prices />
       <Sign />
+      <Friends />
+      <HomePosts />
     </>
   );
 }
