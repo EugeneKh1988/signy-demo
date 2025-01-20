@@ -17,6 +17,9 @@ module.exports = {
         slide2: "url('../images/hero-slide-figure-2.png')",
         slide3: "url('../images/hero-slide-figure-3.png')",
       },
+      fontWeight: {
+        inherit: "inherit",
+      },
       colors: {
         "black-pearl": {
           50: "#f1f6fe",
