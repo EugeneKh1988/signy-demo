@@ -11,14 +11,13 @@ import HomePosts from "../components/HomePosts";
 import Introduce from "../components/Introduce";
 import Faq from "../components/Faq";
 import Subscribe from "../components/Subscribe";
+import Footer from "../components/Footer";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <div className="bg-[url('../images/hero-slide-bg.png')]">
-        <Nav />
-        <CarouselBlock />
-      </div>
+      <Nav />
+      <CarouselBlock />
       <Features />
       <Properties />
       <Prices />
@@ -28,6 +27,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Introduce />
       <Faq />
       <Subscribe />
+      <Footer />
     </>
   );
 }

@@ -59,7 +59,7 @@ const CarouselBlock: React.FC<CarouselProps> = ({ className }) => {
   };
 
   return (
-    <div className={`min-h-[580px] ${classNameValue}`}>
+    <div className={`min-h-[630px] bg-[url('../images/hero-slide-bg.png')] pt-[70px] ${classNameValue}`}>
       <Carousel
         align="start"
         speed={1}

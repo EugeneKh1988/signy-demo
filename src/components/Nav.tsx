@@ -18,8 +18,8 @@ const Nav: React.FC<NavProps> = ({ className }) => {
   return (
     <div
       className={`${
-        scroll.y < 80 ? "bg-transparent" : "bg-white"
-      } sticky z-10 top-0 right-0 left-0`}
+        scroll.y < 80 ? "bg-transparent absolute" : "bg-white sticky"
+      } z-10 top-0 right-0 left-0`}
     >
       <Container className="flex justify-between items-center py-3">
         <StaticImage
