@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             </ul>
             <ul className="basis-full md:basis-1/2 text-[14px] leading-6 space-y-4">
               <li>
-                <Link to="/">Блог</Link>
+                <Link to="/blog">Блог</Link>
               </li>
               <li>
                 <Link to="/">Контакты</Link>

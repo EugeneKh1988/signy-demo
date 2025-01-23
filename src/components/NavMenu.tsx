@@ -72,7 +72,10 @@ const NavMenu: React.FC<NavMenuProps> = ({ className }) => {
               <Link to="/" className="pl-[13px] py-4 block hover:bg-[#E2EDFB]">
                 ПРО НАС
               </Link>
-              <Link to="/" className="pl-[13px] py-4 block hover:bg-[#E2EDFB]">
+              <Link
+                to="/blog"
+                className="pl-[13px] py-4 block hover:bg-[#E2EDFB]"
+              >
                 блог
               </Link>
               <Link to="/" className="pl-[13px] py-4 block hover:bg-[#E2EDFB]">
@@ -124,7 +127,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ className }) => {
               >
                 <NavLink
                   component={Link}
-                  to="/"
+                  to="/blog"
                   label="блог"
                   className="py-4 text-black-pearl/90 bg-transparent hover:bg-[#E2EDFB] uppercase"
                   classNames={{ label: "text-[16px]" }}

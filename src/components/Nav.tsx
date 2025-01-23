@@ -80,7 +80,7 @@ const Nav: React.FC<NavProps> = ({ className }) => {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <Link to="#">блог</Link>
+                <Link to="/blog">блог</Link>
               </Menu.Item>
               <Menu.Item>
                 <Link to="#">Видео</Link>
