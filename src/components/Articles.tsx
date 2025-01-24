@@ -1,6 +1,6 @@
 import * as React from "react";
 import AtriclesContent from "../content/articles.json";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import { Pill, Text } from "@mantine/core";
 import Container from "./Container";
 import { GatsbyImage, getImage, IGatsbyImageData } from "gatsby-plugin-image";
@@ -104,9 +104,9 @@ const Articles: React.FC<ArticlesProps> = ({ className }) => {
             <Text className="mt-[6px] md:mt-3 font-medium text-[12px] leading-6 md:text-[14px]">
               {article.date}
             </Text>
-            <Text className="font-semibold text-[16px] leading-[28px] md:text-[20px] 2xl:text-[24px]">
+            <Link to="/article" className="font-semibold text-[16px] leading-[28px] md:text-[20px] 2xl:text-[24px]">
               {article.title}
-            </Text>
+            </Link>
             <div className="mt-[8px] md:mt-[7px] 2xl:mt-[10px]">
               {article.tags.map((tag, index) => (
                 <Pill

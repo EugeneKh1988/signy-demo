@@ -44,6 +44,5 @@
 
 ## 🚀 Quick start (Netlify)
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+Реализован шаблон https://www.figma.com/design/S95SPuRxylJZ6T4cJHgHCJ/%5BPublished%5D%5BRU%5D-%C2%ABSigny%C2%BB?node-id=31-572&t=e3bAChfp3P478RGO-0. 
+Результат доступен здесь https://dainty-phoenix-e17658.netlify.app
